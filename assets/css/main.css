@@ -170,6 +170,7 @@
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
+
 	}
 
 	.row > * {
@@ -1232,17 +1233,7 @@
         height: 150px;
 	}
 
-	header.major {
-		border-bottom: solid 1px #dbdbdb;
-		margin: 0 0 3em 0;
-	}
-
-		header.major:after {
-			content: '';
-			display: block;
-			border-top: solid 1px #dbdbdb;
-			height: 8px;
-		}
+	
 
 		header.major h2, header.major h3 {
 			margin: 0 0 1.2em 0;
@@ -2076,7 +2067,7 @@
 
 		/* Section/Article */
 
-			section, article {
+			section{
 				clear: both;
 				margin-bottom: 4em !important;
 			}
